@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Webpage - Welcome</title>
+    <style>
+        /* Center-align the title and decrease gap */
+        header h1 {
+            text-align: center;
+            margin-bottom: 5px; /* Decrease margin */
+        }
+
+        /* Align the footer content */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        /* Title for sections */
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        /* Position the sections */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* CSS for images */
+        .my-pictures {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        /* Individual image styles */
+        img {
+            max-width: 45%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for links */
+        .favorite-links {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .favorite-links li {
+            margin-bottom: 5px;
+        }
+
+        /* Align the copyright text */
+        .copyright {
+            margin-top: 0;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to My Page</h1>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Introduction section -->
+        <section class="about-me">
+            <!-- Title for the text -->
+            <h2 class="section-title">About Me</h2>
+            <!-- Content about yourself -->
+            <p>My name is Dawit, and I am an active duty soldier stationed at Fort Riley, KS, serving as a supply specialist in the United States Army. My role involves ensuring my unit is well-equipped by managing tasks such as ordering, receiving, and distributing supplies, as well as preparing packages for transfer to other units and battalions. While my primary focus lies in military logistics, I'm concurrently pursuing a degree in Computer Science.</p>
+            <p>Before my service in the US Army, I earned a bachelor's degree in Management Information Systems. My transition to Computer Science stems from a deep interest in exploring the realm of Artificial Intelligence post-military service. What I value most about my current role is the diverse interactions I have with individuals from various corners of the globe. These experiences continuously shape my perspective and contribute to my growth. Beyond my professional pursuits, I cherish moments spent reading and creating cherished memories with my family during my leisure time.</p>
+        </section>
+
+        <!-- Pictures section -->
+        <section class="my-pictures">
+            <!-- Title for the pictures -->
+            <h2 class="section-title">Future Career Destinations</h2>
+            <!-- Pictures with local file paths -->
+            <img src="/Users/dawitkahsay/Desktop/Google Head Quarter.jpg" alt="Google Headquarters">
+            <img src="/Users/dawitkahsay/Desktop/Pentagon Head Quarter.jpg" alt="Pentagon Headquarters">
+        </section>
+
+        <!-- Links section -->
+        <section class="favorite-links">
+            <!-- Title for the links -->
+            <h2 class="section-title">Favorite Links</h2>
+            <!-- Favorite websites links -->
+            <ul>
+                <li><a href="https://www.w3schools.com/html/">W3Schools HTML Tutorial</a></li>
+                <li><a href="https://www.manutd.com">Manchester United Official Website</a></li>
+                <li><a href="https://www.amazon.com">Amazon</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Aligning the copyright text -->
+        <p class="copyright">&copy; 2023 Dawit Kahsay. All rights reserved.</p>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
